@@ -19,12 +19,12 @@ CIRCUIT_API_URL = "https://v1.formula-1.api-sports.io/circuits"
 API_TIMEOUT = 30
 
 # AWS
-AWS_REGION = "us-east-1"
-S3_BUCKET = "meu-bucket-datalake"
+AWS_REGION = "us-east-2"
+S3_BUCKET = "api-aws-integration-pipeline-project"
 
 # S3 Prefix
-S3_BRONZE_PREFIX = "bronze/api_name"
-S3_SILVER_PREFIX = "silver/api_name"
+S3_BRONZE_PREFIX = "bronze/"
+S3_SILVER_PREFIX = "silver/"
 
 # DOTENV
 DOTENV_DIR = BASE_DIR / '.env'
