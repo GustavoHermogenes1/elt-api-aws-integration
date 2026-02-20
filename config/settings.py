@@ -23,8 +23,8 @@ AWS_REGION = "us-east-2"
 S3_BUCKET = "api-aws-integration-pipeline-project"
 
 # S3 Prefix
-S3_BRONZE_PREFIX = "bronze/"
-S3_SILVER_PREFIX = "silver/"
+S3_BRONZE_PREFIX = "bronze"
+S3_SILVER_PREFIX = "silver"
 
 # DOTENV
 DOTENV_DIR = BASE_DIR / '.env'

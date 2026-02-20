@@ -22,7 +22,7 @@ races = extract_data_api('races', RACES_API_URL, headers, params)
 ranking = extract_data_api('ranking', RANKING_API_URL, headers, params)
 circuits = extract_data_api('circuits', CIRCUIT_API_URL, headers)
 
-# Converting JSON to Parquet
+# Converting JSON to Parquet and saving files locally (just to practice medallion architeture)
 status_parquet = transform_json_to_parquet(status, SILVER_DIR)
 teams_parquet = transform_json_to_parquet(teams, SILVER_DIR)
 races_parquet = transform_json_to_parquet(races, SILVER_DIR)

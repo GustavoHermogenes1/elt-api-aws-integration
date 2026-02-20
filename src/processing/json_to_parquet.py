@@ -14,7 +14,9 @@ def transform_json_to_parquet(data:list[dict], output_path:str) -> io.BytesIO:
 
         buffer.seek(0)
 
-        print(f'Arquivo Parquet salvo em:\n{output_path}')
+        if output_path:
+            pq.write_table(table, output_path)
+            print(f'Arquivo Parquet salvo em:\n{output_path}')
         
         return buffer
     
