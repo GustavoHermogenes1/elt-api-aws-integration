@@ -23,11 +23,11 @@ ranking = extract_data_api('ranking', RANKING_API_URL, headers, params)
 circuits = extract_data_api('circuits', CIRCUIT_API_URL, headers)
 
 # Converting JSON to Parquet and saving files locally (just to practice medallion architeture)
-status_parquet = transform_json_to_parquet(status, SILVER_DIR)
-teams_parquet = transform_json_to_parquet(teams, SILVER_DIR)
-races_parquet = transform_json_to_parquet(races, SILVER_DIR)
-rankings_parquet = transform_json_to_parquet(ranking, SILVER_DIR)
-circuits_parquet = transform_json_to_parquet(circuits, SILVER_DIR)
+status_parquet = transform_json_to_parquet(status, 'status.parquet', SILVER_DIR)
+teams_parquet = transform_json_to_parquet(teams, 'teams.parquet', SILVER_DIR)
+races_parquet = transform_json_to_parquet(races, 'races.parquet', SILVER_DIR)
+rankings_parquet = transform_json_to_parquet(ranking, 'rankings.parquet', SILVER_DIR)
+circuits_parquet = transform_json_to_parquet(circuits, 'circuits.parquet', SILVER_DIR)
 
 # Upload JSON to Data Lake AWS S3
 upload_data_to_s3(status, S3_BUCKET, f'{S3_BRONZE_PREFIX}/status/status.json')

@@ -2,8 +2,9 @@ import pandas as pd
 import pyarrow as pa
 import pyarrow.parquet as pq
 import io
+import os
 
-def transform_json_to_parquet(data:list[dict], output_path:str) -> io.BytesIO:
+def transform_json_to_parquet(data:list[dict], file_name:str, dir_path:str) -> io.BytesIO:
     try:
         df = pd.json_normalize(data)
 
@@ -14,7 +15,8 @@ def transform_json_to_parquet(data:list[dict], output_path:str) -> io.BytesIO:
 
         buffer.seek(0)
 
-        if output_path:
+        if dir_path:
+            output_path = os.path.join(dir_path, file_name)
             pq.write_table(table, output_path)
             print(f'Arquivo Parquet salvo em:\n{output_path}')
         
