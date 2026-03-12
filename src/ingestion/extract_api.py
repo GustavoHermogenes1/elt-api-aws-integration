@@ -15,4 +15,8 @@ def extract_data_api(api_name:str, api_url:str, headers:dict, params:dict | None
 
         return data
     except Exception as e:
+<<<<<<< HEAD
         raise Exception(f'Não foi possível realizar a requisição e salvar o arquivo raw. Erro:\n{e}')
+=======
+        print(f'Não foi possível realizar a requisição e salvar o arquivo raw. Erro:\n{e}')
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2

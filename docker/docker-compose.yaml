@@ -1,5 +1,6 @@
 version: "3.9"
 
+<<<<<<< HEAD
 x-airflow-common: &airflow-common
   build:
     context: ..
@@ -70,3 +71,17 @@ services:
 
 volumes:
   postgres_data:
+=======
+services:
+  elt:
+    container_name: elt_pipeline
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    env_file:
+      - ../.env
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=sa-east-1
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2

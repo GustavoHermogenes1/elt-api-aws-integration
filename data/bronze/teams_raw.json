@@ -13,6 +13,7 @@
             "world_championships": 6,
             "highest_race_finish": {
                 "position": 1,
+<<<<<<< HEAD
                 "number": 130
             },
             "pole_positions": 111,
@@ -22,6 +23,17 @@
             "technical_manager": "Pierre Waché",
             "chassis": "RB22",
             "engine": "Red Bull Ford",
+=======
+                "number": 128
+            },
+            "pole_positions": 110,
+            "fastest_laps": 100,
+            "president": "Dietrich Mateschitz",
+            "director": "Laurent Mekies",
+            "technical_manager": "Pierre Waché",
+            "chassis": "RB21",
+            "engine": "Honda RBPT",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "tyres": "Pirelli"
         },
         {
@@ -35,12 +47,20 @@
                 "position": 1,
                 "number": 203
             },
+<<<<<<< HEAD
             "pole_positions": 177,
+=======
+            "pole_positions": 176,
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "fastest_laps": 179,
             "president": "Zak Brown",
             "director": "Andrea Stella",
             "technical_manager": "Peter Prodromou / Neil Houldey",
+<<<<<<< HEAD
             "chassis": "MCL40",
+=======
+            "chassis": "MCL39",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Mercedes",
             "tyres": "Pirelli"
         },
@@ -60,7 +80,11 @@
             "president": "John Elkann",
             "director": "Frédéric Vasseur",
             "technical_manager": "Loic Serra / Enrico Gualtieri",
+<<<<<<< HEAD
             "chassis": "SF-26",
+=======
+            "chassis": "SF-25",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Ferrari",
             "tyres": "Pirelli"
         },
@@ -93,14 +117,24 @@
             "world_championships": 8,
             "highest_race_finish": {
                 "position": 1,
+<<<<<<< HEAD
                 "number": 123
             },
             "pole_positions": 136,
+=======
+                "number": 122
+            },
+            "pole_positions": 135,
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "fastest_laps": 101,
             "president": "Markus Schäfer",
             "director": "Toto Wolff",
             "technical_manager": "James Allison",
+<<<<<<< HEAD
             "chassis": "W17",
+=======
+            "chassis": "W16",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Mercedes",
             "tyres": "Pirelli"
         },
@@ -137,11 +171,19 @@
             },
             "pole_positions": 1,
             "fastest_laps": 4,
+<<<<<<< HEAD
             "president": "Peter Bayer",
             "director": "Alan Permane",
             "technical_manager": "Tim Goss",
             "chassis": "VCARB 03",
             "engine": "Red Bull Ford",
+=======
+            "president": "Dietrich Mateschitz",
+            "director": "Alan Permane",
+            "technical_manager": "Tim Goss",
+            "chassis": "VCARB 02",
+            "engine": "Honda RBPT",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "tyres": "Pirelli"
         },
         {
@@ -237,10 +279,17 @@
             },
             "pole_positions": 128,
             "fastest_laps": 133,
+<<<<<<< HEAD
             "president": "Matthew Savage",
             "director": "James Vowles",
             "technical_manager": "Pat Fry",
             "chassis": "FW48",
+=======
+            "president": "Claire Williams",
+            "director": "James Vowles",
+            "technical_manager": "Pat Fry",
+            "chassis": "FW47",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Mercedes",
             "tyres": "Pirelli"
         },
@@ -257,11 +306,19 @@
             },
             "pole_positions": 20,
             "fastest_laps": 16,
+<<<<<<< HEAD
             "president": "Philippe Krief",
             "director": "Flavio Briatore",
             "technical_manager": "David Sanchez",
             "chassis": "A526",
             "engine": "Mercedes",
+=======
+            "president": "Alain Prost, Jérôme Stoll ",
+            "director": "Flavio Briatore",
+            "technical_manager": "David Sanchez",
+            "chassis": "A525",
+            "engine": "Renault",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "tyres": "Pirelli"
         },
         {
@@ -280,7 +337,11 @@
             "president": "Gene Haas",
             "director": "Ayao Komatsu",
             "technical_manager": "Andrea De Zordo",
+<<<<<<< HEAD
             "chassis": "VF-26",
+=======
+            "chassis": "VF-25",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Ferrari",
             "tyres": "Pirelli"
         },
@@ -338,10 +399,17 @@
             "pole_positions": 1,
             "fastest_laps": 3,
             "president": "Lawrence Stroll",
+<<<<<<< HEAD
             "director": "Adrian Newey",
             "technical_manager": "Enrico Cardile",
             "chassis": "AMR26",
             "engine": "Honda",
+=======
+            "director": "Andy Cowell",
+            "technical_manager": "Enrico Cardile",
+            "chassis": "AMR25",
+            "engine": "Mercedes",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "tyres": "Pirelli"
         },
         {
@@ -372,6 +440,7 @@
             "first_team_entry": 2026,
             "world_championships": 0,
             "highest_race_finish": {
+<<<<<<< HEAD
                 "position": 16,
                 "number": 1
             },
@@ -381,6 +450,17 @@
             "director": "Graeme Lowdon",
             "technical_manager": "Nick Chester",
             "chassis": "MAC-26",
+=======
+                "position": null,
+                "number": null
+            },
+            "pole_positions": 0,
+            "fastest_laps": 0,
+            "president": "",
+            "director": "Graeme Lowdon",
+            "technical_manager": "Nick Chester",
+            "chassis": "",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "engine": "Ferrari",
             "tyres": ""
         },
@@ -392,12 +472,21 @@
             "first_team_entry": 2026,
             "world_championships": 0,
             "highest_race_finish": {
+<<<<<<< HEAD
                 "position": 9,
                 "number": 1
             },
             "pole_positions": 0,
             "fastest_laps": 0,
             "president": "Mattia Binotto",
+=======
+                "position": null,
+                "number": null
+            },
+            "pole_positions": 1,
+            "fastest_laps": 0,
+            "president": "Pascal Picci",
+>>>>>>> 7b1d72ea7b5f713b66d843d3764b88cf2dbb4da2
             "director": "Jonathan Wheatley",
             "technical_manager": "James Key",
             "chassis": "R26",
